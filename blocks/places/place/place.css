@@ -1,0 +1,12 @@
+.place {
+    margin-bottom: 80px;
+    list-style-type: none;
+
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: minmax(84px, min-content);
+    gap: 40px;
+
+    width: 984px;
+    height: auto;
+}

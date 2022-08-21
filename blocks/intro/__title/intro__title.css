@@ -3,12 +3,22 @@
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
-    line-height: 58px;
+    line-height: 1.07;
     color: #fff;
 
-    width: 690px;
-    height: 58px;
+    max-width: 690px;
+    max-height: 58px;
 
     margin: 0;
     padding: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .intro__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.09;    
+    }
 }

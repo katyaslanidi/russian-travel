@@ -8,3 +8,7 @@
     color: #FFF;
     margin-bottom: 8px;
 }
+
+.place__website__link:hover {
+    color: #aaa;
+}

@@ -10,7 +10,6 @@
 @media screen and (min-width: 1280px) {
     .lead__subtitle {
         width: 640px;
-        /* height: 72px; */
         margin-top: 3.253%;
         margin-bottom: 6.505%;
         margin-left: auto;
@@ -20,7 +19,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px){
     .lead__subtitle {
         width: 640px;
-        /* height: 72px; */
         margin-top: 3.449%;
         margin-bottom: 6.035%;
         margin-left: auto;
@@ -30,7 +28,6 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .lead__subtitle {
         width: 640px;
-        /* height: 72px; */
         margin-top: 4.168%;
         margin-bottom: 7.293%;
         margin-left: auto;
@@ -40,7 +37,6 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .lead__subtitle {
         max-width: 288px;
-        /* max-height: 40px; */
         margin-top: 5%;
         margin-bottom: 12.5%;
         margin-left: auto;

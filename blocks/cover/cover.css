@@ -5,7 +5,6 @@
     flex-direction: column;
     text-decoration: none;
     background-image: url(../../images/__background.jpg);
-    display: flex;
     justify-content: center;
     align-items: center;
     padding-left: auto;

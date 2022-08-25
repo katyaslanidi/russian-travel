@@ -1,42 +1,16 @@
 .cover {
     font-family: 'Inter', Arial, sans-serif;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    text-decoration: none;
     background-image: url(../../images/__background.jpg);
-    justify-content: center;
-    align-items: center;
-    padding-left: auto;
-    padding-right: auto;
-    width: 100%;
-    max-width: 1184px;
-    min-height: 740px;
+    background-size: cover;
     margin-left: auto;
     margin-right: auto;
-    background-size: cover;
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .cover {
-        max-width: 1024px;
-        min-height: 640px;
-        margin-bottom: 0;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .cover {
-        max-width: 768px;
-        min-height: 480px;
-        margin-bottom: 0;
-    }
+    width: 100%;
+    max-width: 1184px;
+    position: relative;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .cover {
-        max-width: 320px;
-        min-height: 200px;
-        margin-bottom: 0;
+        height: 62.5vw;
     }
 }

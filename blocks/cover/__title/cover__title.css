@@ -5,16 +5,29 @@
     line-height: 1.06;
     text-align: center;
     color: #FFF;
-    z-index: 2;
+    margin-top: 245px; 
+    margin-bottom: 0;
     max-width: 560px;
-    padding: 0;
-    margin-bottom: 0; 
+    z-index: 2;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover__title {
+        margin-top: 195px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover__title {
+        margin-top: 115px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .cover__title {
-        max-width: 288px;
         font-size: 32px;
         line-height: 1.09;
+        margin-top: 10.3vw;
+        max-width: 250px;
     }
-}
+} 

@@ -1,4 +1,4 @@
-.header__lang-link {
+.header__lang-link_enable {
     padding: 0;
     margin: 0;
     padding-left: 18px;
@@ -7,16 +7,16 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 1.17;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .header__lang-link {
+    .header__lang-link_enable {
         font-size: 18px;
         line-height: 1.11;
     }
 }
 
-.header__lang-link:hover {
+.header__lang-link_enable:hover {
     opacity: 0.8;
 }

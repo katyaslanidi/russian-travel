@@ -9,7 +9,7 @@
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_disable/header__lang-link_disable.css);
-@import url(../blocks/header/__lang-link/_enable/header__lang-link_enable.css);
+@import url(../blocks/header/__lang-link_enable/header__lang-link_enable.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);

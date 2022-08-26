@@ -14,9 +14,10 @@
     .place__paragraph {
         font-size: 16px;
         margin-bottom: 0;
+        padding-bottom: 25px;
     }
-    .place__paragraph:nth-child(2n) {
-        padding-top: 25px;
+    .place__paragraph:last-child {
+        padding-bottom: 0;
     }
 }
 
@@ -27,8 +28,9 @@
         margin-right: auto;
         font-size: 16px;
         margin-bottom: 0;
+        padding-bottom: 25px;
     }
-    .place__paragraph:nth-child(2n) {
-        padding-top: 25px;
+    .place__paragraph:last-child {
+        padding-bottom: 0;
     }
 }
